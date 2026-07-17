@@ -1,16 +1,95 @@
-# React + Vite
+# 🚀 K8s AI Ops
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **AI-Powered Kubernetes Operations Dashboard for High-Performance AI Clusters**
 
-Currently, two official plugins are available:
+K8s AI Ops is an intelligent Kubernetes monitoring and operations platform designed for GPU-intensive AI infrastructure. It provides real-time cluster health monitoring, workload visibility, GPU analytics, alert management, AI-assisted troubleshooting, and operational insights for large-scale AI computing environments such as **AIRAWAT** and **PARAM SIDDHI**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Built as part of the **CDAC – National Supercomputing Mission (NSM) Platform**, the application helps platform engineers, DevOps teams, and AI infrastructure administrators manage Kubernetes clusters efficiently using AI-driven recommendations.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+### 📊 Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Real-time cluster health overview
+* Node availability monitoring
+* Running pod statistics
+* GPU utilization metrics
+* CPU & GPU usage trends
+* Active alerts summary
+* AI-generated operational insights
+
+### 🖥️ Cluster Management
+
+* Multi-cluster support
+* Cluster selection interface
+* Kubernetes version information
+* Namespace monitoring
+* Node readiness status
+
+### 🟢 Node Monitoring
+
+* Ready / NotReady status
+* Cordoned node detection
+* Resource utilization
+* Health matrix visualization
+
+### 📦 Pod Monitoring
+
+* Running pod statistics
+* Pod status tracking
+* CrashLoopBackOff detection
+* Namespace-wise monitoring
+
+### ⚙️ Workloads
+
+* Deployment monitoring
+* StatefulSets
+* DaemonSets
+* Job tracking
+* Resource allocation overview
+
+### 🎮 GPU Monitoring
+
+* GPU utilization
+* GPU health
+* GPU temperature monitoring
+* Multi-GPU cluster support
+* AI workload monitoring
+* GPU node insights
+
+### 🚨 Alert Management
+
+* Critical alerts
+* Warning alerts
+* Namespace-specific issues
+* Infrastructure failures
+* Storage capacity alerts
+* GPU hardware alerts
+
+### 📜 Event Viewer
+
+* Kubernetes event timeline
+* Cluster activity monitoring
+* Namespace event filtering
+
+### 🛠️ Pod Debugger
+
+* AI-assisted troubleshooting
+* Pod diagnostics
+* Failure analysis
+* Suggested remediation steps
+
+### 🤖 AI Assistant
+
+Built-in AI assistant capable of:
+
+* Explaining Kubernetes errors
+* Troubleshooting cluster issues
+* Recommending recovery actions
+* Suggesting performance optimizations
+* Assisting with Kubernetes operations
+
+---
+
